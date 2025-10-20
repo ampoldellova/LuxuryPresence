@@ -1,0 +1,27 @@
+.nav-button {
+  position: relative;
+  background: none;
+  box-shadow: none;
+  transition: font-weight 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: transparent;
+  box-shadow: none;
+  /* font-weight: bold; */
+}
+
+.nav-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.nav-button:hover::after {
+  width: 100%;
+}

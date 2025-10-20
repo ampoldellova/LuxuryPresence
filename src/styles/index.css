@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('../assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'medium';
+  src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'light';
+  src: url('../assets/fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'semiBold';
+  src: url('../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'extraBold';
+  src: url('../assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'transcend-regular';
+  src: url('../assets/fonts/Transcend-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'transcend-semiBold';
+  src: url('../assets/fonts/Transcend-SemiBold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'transcend-medium';
+  src: url('../assets/fonts/Transcend-Medium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'transcend-light';
+  src: url('../assets/fonts/Transcend-Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'transcend-bold';
+  src: url('../assets/fonts/Transcend-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'transcend-extraBold';
+  src: url('../assets/fonts/Transcend-ExtraBold.otf') format('truetype');
+}
