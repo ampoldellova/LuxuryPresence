@@ -31,7 +31,7 @@ const Banner = ({ visible }) => {
       sx={{
         position: "relative",
         width: "100%",
-        height: { xs: "65vh", lg: "100vh" },
+        height: "100vh",
       }}
     >
       <Box

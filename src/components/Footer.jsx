@@ -3,13 +3,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <Box sx={{ height: 100, backgroundColor: "#141414" }}>
+    <Box
+      sx={{
+        height: 100,
+        backgroundColor: "#141414",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <Typography
         sx={{
           color: "#f8f8f8",
           textAlign: "center",
-          lineHeight: "100px",
           fontFamily: "transcend-light",
+          fontSize: { xs: 12, md: 16 },
         }}
       >
         Copyright © 2023 Marci METZGER Homes - All Rights Reserved
